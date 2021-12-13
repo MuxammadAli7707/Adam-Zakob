@@ -55,20 +55,26 @@
             <h2 class="header-job">What  actually I love to do</h2>
             <ul class="servis-list">
                 <li class="servis-list-item">
-                    <img src="images/Group-3-(1).svg" alt="Group-3" width="62" height="61">
-                    <h3 class="servis-header">UX Research</h3>
+                    <div class="research">
+                        <img src="images/Group-3-(1).svg" alt="Group-3" width="62" height="61">
+                        <h3 class="servis-header">UX Research</h3>
+                    </div>
                     <p class="servis-text">New demos are continually added and buying a single license for Mak gives you access to all of
                     what's shown below, plus everything that will be added in the future.</p>
                 </li>
-                <li>
-                    <img src="images/Group-3-(2).svg" alt="Group" width="62" height="61">
-                    <h3 class="servis-header">Brand Design</h3>
+                <li class="servis-list-item">
+                    <div class="design">
+                        <img src="images/Group-3-(2).svg" alt="Group" width="62" height="61">
+                        <h3 class="servis-header">Brand Design</h3>
+                    </div>
                     <p class="servis-text">New demos are continually added and buying a single license for Mak gives you access to all of
                     what's shown below, plus everything that will be added in the future.</p>
                 </li>
-                <li>
-                    <img src="images/Group-3-(3).svg" alt="Group" width="62" height="61">
-                    <h3 class="servis-header">Web Development</h3>
+                <li class="servis-list-item">
+                    <div class="development">
+                        <img src="images/Group-3-(3).svg" alt="Group" width="62" height="61">
+                        <h3 class="servis-header">Web Development</h3>
+                    </div>
                     <p class="servis-text">New demos are continually added and buying a single license for Mak gives you access to all of
                     what's shown below, plus everything that will be added in the future.</p>
                 </li>
@@ -76,11 +82,15 @@
         </section>
 
         <section class="portfolio container">
-            <di class="portfo">
+            <div class="portfo">
                 <span class="portf">Portfolio</span>
                 <hr class="portf-hr">
-                <h2 class="portf-header">All Creative Projects</h2>
-                <a href="#" class="explore">Explore More</a>
+                <div class="project">
+                    <h2 class="portfo-header">All Creative Projects</h2>
+                    <a href="#" class="explore">Explore More
+                        <img src="images/Vector.png" alt="Vector" width="18" height="16">
+                    </a>
+                </div>
             </div>
             <div class="portf-img">
                 <img src="images/Rectangle-5.png" alt="Rectangle" width="520" height="427">
@@ -148,32 +158,45 @@
         </section>
 
         <section class="blog container">
-            <span class="blog-span">Blog</span>
-            <hr class="blog-hr">
-            <h2 class="blog-heading">Get News  Feeds</h2>
-            <div class="news">
-                <div class="texnolo">
+            <div class="blog-box">
+                <span class="blog-span">Blog</span>
+                <hr class="blog-hr">
+                <h2 class="blog-heading">Get News  Feeds</h2>
+            </div>
+            <div class="texnolo">
+                <div class="texno-img">
                     <img src="images/Rectangle-13.png" alt="Rectangle" width="350" height="233">
+                </div>
+                <div  class="texno-info">
                     <time datetime="2020-06-20" class="time">20 June/2020</time>
                     <h3 class="texno-text">Technology is evolving rapidly. New devices and applications.</h3>
                 </div>
-                    <img src="images/Rectangle-14.png" alt="Rectangle" width="255" height="350">
-                    <time datetime="2020-06-20">20 June/2020</time>
-                    <h3>New devices and applications come to the market.</h3>
-                    <img src="images/Rectangle-15.png" alt="Rectangle" width="255" height="350">
-                    <time datetime="2020-06-20">20 June/2020</time>
-                    <h3>Every day providing solutions to problems.</h3>
-                </div>
-            </section>
-        </main>
+            </div>
+            <div class="market">
+                <img src="images/Rectangle-14.png" alt="Rectangle" width="255" height="350">
+                <time datetime="2020-06-20" class="time">20 June/2020</time>
+                <h3>New devices and applications come to the market.</h3>
+            </div>
+            <div class="problem">
+                <img src="images/Rectangle-15.png" alt="Rectangle" width="255" height="350">
+                <time datetime="2020-06-20" class="time">20 June/2020</time>
+                <h3>Every day providing solutions to problems.</h3>
+            </div>
+        </section>
+    </main>
     <footer class="footer container">
         <div>
         <span class="footer-span">Contact Me</span>
         <hr class="footer-hr">
-        <p class="footer-text">Let me know if you want to talk 
-            about a potential collaboration.
-            I'm available for freelance work.
-        </p>
+        <div class="footer-text-link">
+            <div>
+                <p class="footer-text">Let me know if you want to talk 
+                    about a potential collaboration.
+                    I'm available for freelance work.
+                </p>
+            </div>
+            <a href="https://www.gmail.com/" class="footer-link">infoname@mail.com</a>
+        </div>
         <form action="result.html">
             <div class="form-text">
                 <input type="text" placeholder="What’s your name?">
@@ -189,7 +212,6 @@
             <hr class="input-hr">
         </form>
         <a class="form-link" href="#" target="_blank">Get a Quote</a>
-        <a href="https://www.gmail.com/" class="footer-link">infoname@mail.com</a>
         <div class="friend">
             <p class="friend-text">Let's be Friends</p>
             <ul class="friend-list">

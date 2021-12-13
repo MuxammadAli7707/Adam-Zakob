@@ -36,7 +36,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
-  opacity: 1px;
+  opacity: 1;
 }
 
 .header-list-item a {
@@ -69,11 +69,13 @@ body {
 
 .hero-left-title span {
   color: #666666;
+  font-size: 24px;
 }
 .hero-left-title {
+  font-family: 'Red Hat Display', 'Arial', sans-serif;
   font-style: normal;
-  font-weight: 50px;
-  font-size: 24px;
+  font-weight: 700;
+  font-size: 50px;
   line-height: 120%;
   color: #25202F;
   width: 358px;
@@ -151,12 +153,38 @@ body {
   align-items: center;
 }
 
+.research {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.development {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.development h3 {
+  margin-right: 70px;
+}
+
 .servis-header {
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 32px;
   color: #25202F;
+  margin-right: 120px;
 }
 
 .servis-text {
@@ -193,7 +221,7 @@ body {
   margin-bottom: 15px;
 }
 
-.porft-header {
+.porfto-header {
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -204,6 +232,12 @@ body {
   width: 204px;
 }
 
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .explore {
   font-style: normal;
   font-weight: 500;
@@ -211,11 +245,14 @@ body {
   line-height: 32px;
   text-decoration-line: underline;
   color: #25202F;
-  margin-left: 1000px;
+}
+.explore img {
+  margin-left: 13px;
 }
 
-.portfo-img {
-  justify-content: space-between;
+.portf-img {
+  display: flex;
+  justify-content: center;
   filter: drop-shadow(0px 20px 50px rgba(220, 192, 255, 0.3));
   border-radius: 10px;
 }
@@ -332,6 +369,11 @@ body {
   margin-bottom: 26px;
 }
 
+.blog {
+  display: flex;
+  justify-content: space-between;
+}
+
 .blog-span {
   font-style: normal;
   font-weight: normal;
@@ -363,6 +405,19 @@ body {
   width: 217px;
 }
 
+.texno-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 26px;
+  color: #000000;
+  width: 350px;
+}
+
+.market {
+  margin-right: 80px;
+}
+
 .news {
   display: flex;
   justify-content: space-between;
@@ -383,7 +438,6 @@ body {
   font-size: 16px;
   line-height: 21px;
   color: #8643DC;
-  margin-bottom: 10px;
 }
 
 .texno-text {
@@ -392,6 +446,7 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #000000;
+  margin-top: 10px;
   margin-bottom: 150px;
 }
 
@@ -424,6 +479,22 @@ body {
   width: 512px;
   margin-bottom: 40px;
 }
+
+.footer-text-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  text-transform: lowercase;
+  color: #8643DC;
+}
+
 .form-text input {
   border: none;
   font-style: normal;
@@ -456,17 +527,6 @@ body {
   text-align: center;
   color: #FFFFFF;
   padding: 14px 49px;
-}
-
-.footer-link {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  text-decoration-line: underline;
-  text-transform: lowercase;
-  color: #8643DC;
-  margin-left: 800px;
 }
 
 .friend-text  {
